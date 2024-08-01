@@ -1,4 +1,4 @@
 # Biography-Website
 Author - Muhammad Ghulam Muhi-ud-din
 <br/>
-https://muhammadghulammuhiuddin.github.io/Restraints-Assignement-SMIT-/
+https://vercel.com/muhammadghulammuhiuddins-projects/biography-website/9qBRrhisuLvUikL1YKcBjSYJHD7J
