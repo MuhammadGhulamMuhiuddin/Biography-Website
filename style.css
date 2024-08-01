@@ -1,0 +1,86 @@
+/* header */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    position: relative;
+    /* width: 100%;
+    height: 100vh; */
+    background: white;
+}
+ nav{
+    display: flex;
+     width: 70%; 
+    margin: auto ;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+ nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #D2042D;
+}
+/* header\
+ */
+/* main css */
+.main{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.main h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: #0096FF;
+}
+.main p {
+    color: #088F8F;
+    line-height: 22px;
+}
+.main a{
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+/* main css */
+/* image css right side of main */
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .main-img{
+    left: 45%;
+}
